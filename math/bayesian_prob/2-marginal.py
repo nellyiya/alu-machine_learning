@@ -53,4 +53,3 @@ def marginal(x, n, P, Pr):
     marginal_prob = np.sum(intersection_values)
 
     return marginal_prob
-
