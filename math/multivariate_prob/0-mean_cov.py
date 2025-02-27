@@ -45,4 +45,3 @@ def mean_cov(X):
 #     mean, cov = mean_cov(X)
 #     print(mean)
 #     print(cov)
-
