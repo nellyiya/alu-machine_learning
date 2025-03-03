@@ -29,4 +29,3 @@ def convolve_grayscale_valid(images, kernel):
             sub_matrix = images[:, i: i + kh, j: j + kw] * kernel
             output[:, i, j] = np.sum(sub_matrix, axis=(1, 2))
     return output
-
